@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+    <html lang="pt-br">
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="stylesheet" href="calculadora.html">
+            <title>Calculadora</title>
+        </head>
+    <body>
+        <header>
+            <a href="index.html"><img src="styles/logo.certa.png" height="90"></a>
+        </header>    
+        <div>
+            <h1>Calculadora de consumo de tintas</h1>
+                <h2>Vamos ajudar você a calcular a quantidade de tinta necessária e evitar disperdício.</h2>
+        </div>
+        <div class="projeto">
+            <label>Nome do projeto</label>
+                    <input type="text" name="nome" id="nome" placeholder="Ex: Quarto" required>
+        </div>   
+        <div>        
+            <form>
+                <li>Informe as medidas da primeira parede</li>
+                    <input type="number" name="parede1" id="largura1" placeholder="Largura" step="0.1" min="1" max="50" required>
+                    <input type="number" name="parede1" id="altura1" placeholder="Altura" step="0.1" min="1" max="50" required>
+                <label>Portas</label>
+                    <input type="number" name="porta1" id="porta1" placeholder="N° Portas" step="1" min="1" max="4">
+                <label>Janelas</label>
+                    <input type="number" name="janela1" id="parede2" placeholder="N° Janelas" step="1" min="1" max="10">
+
+                <li>Informe as medidas da segunda parede</li>
+                    <input type="number" name="parede2" id="largura2" placeholder="Largura" step="0.1" min="1" max="50">
+                    <input type="number" name="parede1" id="altura2" placeholder="Altura" step="0.1" min="1" max="50">
+                <label>Portas</label>
+                    <input type="number" name="porta2" id="porta2" placeholder="N° Portas" step="1" min="1" max="4">
+                <label>Janelas</label>
+                    <input type="number" name="janela2" id="janela2" placeholder="N° Janelas" step="1" min="1" max="10">
+
+                <li>Informe as medidas da terceira parede</li>
+                    <input type="number" name="parede3" id="largura3" placeholder="Largura" step="0.1" min="1" max="50">
+                    <input type="number" name="parede1" id="altura3" placeholder="Altura" step="0.1" min="1" max="50">
+                <label>Portas</label>
+                    <input type="number" name="porta3" id="porta3" placeholder="N° Portas" step="1" min="1" max="4">
+                <label>Janelas</label>
+                    <input type="number" name="janela3" id="janela3" placeholder="N° Janelas" step="1" min="1" max="10">
+
+                <li>Informe as medidas da quarta parede</li>
+                    <input type="number" name="parede4" id="largura4" placeholder="Largura" step="0.1" min="1" max="50">
+                    <input type="number" name="parede4" id="altura4" placeholder="Altura" step="0.1" min="1" max="50">
+                <label>Portas</label>
+                    <input type="number" name="porta4" id="porta4" placeholder="N° Portas" step="1" min="1" max="4">
+                <label>Janelas</label>
+                    <input type="number" name="janela4" id="janela4" placeholder="N° Janelas" step="1" min="1" max="10">
+            </form>
+        </div>     
+            <h3>Tudo pronto? clique em calcular</h3>
+        <button class="botao" type="submit">Calcular</button>
+
+    </body>
+    </html>

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="../styles/contato.css" media="screen">
+        <title>Contato</title>
+    </head>
+    <body>
+        <header>
+            <a href="index.html"><img src="styles/logo.certa.png" height="90"></a>
+        </header>    
+        <div>
+            <h1 id="titulo">Fale Conosco</h1>
+            <p id="subtitulo"> Queremos seu Feedback </p>
+        </div>
+
+        <form>
+            <fieldset> 
+                <div class="campo">
+                    <label>Nome Completo</label>
+                    <input type="text" name="nome" id="nome" placeholder="Nome Completo" required>
+                </div>
+
+            <div class="campo">
+                    <label>Telefone</label>
+                <input type="tel" name="telefone" id="telefone" placeholder="Telefone" required>
+                
+            </div>
+            </fieldset>
+
+                <div>
+                <label class="campo">Email</label>
+                <input type="email" name="email" id="email" placeholder="Email" required>
+                </div>    
+
+            
+            <div class="campo">
+                <h2>Nivel de Satisfação</h2>
+            
+                    <label>Em qual filial você foi atendido(a)</label> 
+                        <select id="filial">
+                            <option>Porto Alegre</option>
+                            <option>Sao Paulo</option>
+                            <option>Recife</option>
+                        </select>    
+                
+                <h3>Atendimento</h3>
+                    <label>
+                        <input type="radio" name="atendimento" placeholder="muito satisfeito"> Muito Satisfeito
+                    </label>
+                    <label>
+                        <input type="radio" name="atendimento" placeholder="satisfeito">  Satisfeito
+                    </label>
+                    <label>
+                        <input type="radio" name="atendimento" placeholder="indiferente"> Indiferente
+                    </label>
+                    <label>
+                        <input type="radio" name="atendimento" placeholder="ruim"> Ruim
+                    </label>  
+                    <label>
+                        <input type="radio" name="atendimento" placeholder="pesimo"> Péssimo
+                    </label>
+                    
+
+                
+                <h3>Entrega</h3>
+                    <label>
+                        <input type="radio" name="entrega" placeholder="muito satisfeito"> Muito Satisfeito
+                    </label>
+                    <label>
+                        <input type="radio" name="entrega" placeholder="satisfeito">  Satisfeito
+                    </label>
+                    <label>
+                        <input type="radio" name="entrega" placeholder="indiferente"> Indiferente
+                    </label>
+                    <label>
+                        <input type="radio" name="entrega" placeholder="ruim"> Ruim
+                    </label>  
+                    <label>
+                        <input type="radio" name="entrega" placeholder="pesimo"> Péssimo
+                    </label>
+                
+            
+                    <label><h3>Pós-venda</h3></label>
+                    <label>
+                        <input type="radio" name="pos-venda" placeholder="muito satisfeito"> Muito Satisfeito
+                    </label>
+                    <label>
+                        <input type="radio" name="pos-venda" placeholder="satisfeito">  Satisfeito
+                    </label>
+                    <label>
+                            <input type="radio" name="pos-venda" placeholder="indiferente"> Indiferente
+                    </label>
+                    <label>
+                            <input type="radio" name="pos-venda" placeholder="ruim"> Ruim
+                    </label>  
+                    <label>
+                            <input type="radio" name="pos-venda" placeholder="pesimo"> Péssimo
+                    </label>
+            </div>
+            <div class="campo">
+                <h2>Deixe-nos uma mensagem</h2>
+                <textarea row="20" id="mensagem" name="mensagem"></textarea>
+            </div>
+            <button class="botao" type="submit">Enviar</button>
+
+        </form>
+        
+        <script src="../scripts/validacao.js"></script>
+    </body>
+   
+</html>

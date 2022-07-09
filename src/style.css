@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background: black;
+    padding: 2px 0;
+   
+}
+ul{
+
+    align-items: center;
+    display: flex;
+   
+    
+}
+li{
+    padding: 0 150 px;
+    
+}
+p{
+    font-family: fantasy;
+    color: white;
+    font-size: 5px;
+}
