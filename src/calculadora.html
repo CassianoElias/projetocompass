@@ -1,16 +1,25 @@
 <!DOCTYPE html>
-    <html lang="pt-br">
-        <head>
-            <meta charset="UTF-8">
-            <meta http-equiv="X-UA-Compatible" content="IE=edge">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <link rel="stylesheet" href="calculadora.html">
-            <title>Calculadora</title>
-        </head>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="calculadora.css">
+        <title>Calculadora</title>
+    </head>
     <body>
-        <header>
-            <a href="index.html"><img src="styles/logo.certa.png" height="90"></a>
-        </header>    
+        <header class="container">
+             <div>
+                 <a href="index.html"><img src="styles/logo.certa.png" class="img_logo" alt="Logo Compass Tintas" width="100"></a>
+                  
+                </div>  
+                <div>
+                    <nav class="menu" id="menu">       
+                          <a href="index.html">Home</a>
+                          <a href="calculadora.html">Calculadora</a>
+                          <a href="contato.html">Contato</a>
+                    </nav>      
+                  </div>
+                </header>  
         <div>
             <h1>Calculadora de consumo de tintas</h1>
                 <h2>Vamos ajudar você a calcular a quantidade de tinta necessária e evitar disperdício.</h2>
@@ -22,8 +31,8 @@
         <div>        
             <form>
                 <li>Informe as medidas da primeira parede</li>
-                    <input type="number" name="parede1" id="largura1" placeholder="Largura" step="0.1" min="1" max="50" required>
-                    <input type="number" name="parede1" id="altura1" placeholder="Altura" step="0.1" min="1" max="50" required>
+                    <input type="number" name="parede1" id="largura1" placeholder="Largura" step="0.1" min="1" max="50">
+                    <input type="number" name="parede1" id="altura1" placeholder="Altura" step="0.1" min="1" max="50">
                 <label>Portas</label>
                     <input type="number" name="porta1" id="porta1" placeholder="N° Portas" step="1" min="1" max="4">
                 <label>Janelas</label>
@@ -55,7 +64,8 @@
             </form>
         </div>     
             <h3>Tudo pronto? clique em calcular</h3>
-        <button class="botao" type="submit">Calcular</button>
+        <button class="botao" id="calcular" type="submit">Calcular</button>
+<script src="calculadora.js"></script>
 
     </body>
     </html>

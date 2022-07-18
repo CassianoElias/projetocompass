@@ -1,1 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: black;
+    padding: 1px 0px;
+    
+    
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    margin: 3px   
+}

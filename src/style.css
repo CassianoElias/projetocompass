@@ -6,24 +6,16 @@
 .container{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     background: black;
-    padding: 2px 0;
-   
+    padding: 1px 0px;
 }
-ul{
 
-    align-items: center;
-    display: flex;
-   
-    
-}
-li{
-    padding: 0 150 px;
-    
-}
-p{
-    font-family: fantasy;
+.menu a{
+
+    text-decoration: none;
     color: white;
-    font-size: 5px;
+    font-size: large;
+    font-weight: bold;
+    margin: 3px   
 }
